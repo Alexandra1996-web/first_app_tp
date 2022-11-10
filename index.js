@@ -37,3 +37,5 @@ console.log(persona.edad);
 // Array de objetos buscar
 // en google: typescript array of objects
 // https://www.typescriptlang.org/docs/handbook/advanced-types.html
+
+
