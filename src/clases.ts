@@ -75,6 +75,21 @@ vehicule.drive(); // imprime el metodo drive
 // https://www.typescriptlang.org/docs/handbook/classes.html 
 
 
+// getters y setters en typescript 
+
+//getters permite acceder a atributos de las clases, funciona igual que una funcion 
+
+// https://www.typescripttutorial.net/typescript-tutorial/typescript-getters-setters/ 
+
+/* 
+Un método getter devuelve el valor del valor de la propiedad. Un captador también se denomina accesor.
+Un método setter actualiza el valor de la propiedad. Un setter también se conoce como mutador. */ 
+
+
+
+
+
+
 
 
 
