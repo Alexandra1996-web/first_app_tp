@@ -8,6 +8,7 @@ class Vehicule {
 
     private readonly model: string, // atributo de la clase 
     private color: string, // atributo de la clase
+    private price: number // atributo de la clase
     ) {}
     // usar un constructor que inicialice al enviar un parametro a brandName 
     /*  
@@ -63,7 +64,7 @@ class Car extends Vehicule{
 // se puede heredar lso atributos y otros, y sobre escribir 
 
 
-const vehicule = new Car('Toyota', "2009", "red"); // instanciamos la clase Vehicule y le pasamos el parametro Toyota. Inicializamos el objeto en memoria 
+const vehicule = new Car('Toyota', "2009", "red", 200); // instanciamos la clase Vehicule y le pasamos el parametro Toyota. Inicializamos el objeto en memoria 
 
 vehicule.drive(); // imprime el metodo drive  
 
