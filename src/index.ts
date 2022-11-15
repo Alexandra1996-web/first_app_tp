@@ -49,6 +49,7 @@ console.log(typeof hobbies);
 // en google: typescript array of objects
 // La diferencia de las tuplas con las listas son que las tuplas son de un tipo de dato que se especifica 
 // y las listas son de cualquier tipo de dato 
+// Una tupla en TypeScript es un array de elementos que están tipados. https://lineadecodigo.com/typescript/tupla-en-typescript/  
 
 // ejemplo lista 
 let lista: any[] = ['leer', 'correr', 'dormir', 2, true];
@@ -78,6 +79,12 @@ console.log(`Mi color favorito es ${colorFavorito}`);
 
 let objetos: any = ["hola", 2, true, {nombre: "Juan", apellido: "Perez"}];
 console.log(objetos[3].nombre);
+
+
+let tiempo: [string, string, string];
+tiempo = ['Pasado','Presente','Futuro'];
+console.log(tiempo[1]); // Presente
+
 
 
 

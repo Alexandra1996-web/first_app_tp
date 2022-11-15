@@ -17,3 +17,4 @@ function padLeft(value: string, padding: StringOrNumber) { // se le asigna el ti
 }
 console.log(padLeft("Hello world", 20));
 console.log(padLeft("Hello world", 5));
+
